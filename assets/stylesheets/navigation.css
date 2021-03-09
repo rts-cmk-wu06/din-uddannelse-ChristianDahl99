@@ -1,0 +1,119 @@
+/* //---///----------------------------///---// */
+/* //---///--- Main Navigation Body ---///---// */
+/* //---///----------------------------///---// */
+
+.nav-header {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    min-height: 56px;
+    background-color: #c40000;
+    color: white;
+}
+
+/* //---///--------------///---// */
+/* //---///--- Header ---///---// */
+/* //---///--------------///---// */
+
+.nav-logo-figure {
+    margin: 0;
+    margin-left: 15px;
+}
+
+.nav-logo {
+    width: 129.31px;
+    height: 33.03px;
+}
+
+/* //---///-------------------------///---// */
+/* //---///--- Navigation Toggle ---///---// */
+/* //---///-------------------------///---// */
+
+label {
+    align-self: center;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+}
+
+i.fa-ellipsis-v {
+    align-self: center;
+}
+
+.menu-wrapper {
+    display: flex;
+    margin-right: 10px;
+}
+
+.menu-text {
+    margin-right: 10px;
+}
+
+/* //---///------------------///---// */
+/* //---///--- Navigation ---///---// */
+/* //---///------------------///---// */
+
+.header-nav {
+    display: none;
+    flex-basis: 100%;
+}
+
+.nav-ul {
+    padding: 0;
+    list-style: none;
+}
+
+.nav-li {
+    line-height: 2rem;
+}
+
+.nav-links:hover {
+    color: rgb(255, 204, 0);
+}
+
+.nav-links {
+    text-decoration: none;
+    color: white;
+}
+
+/* //---///------------------------------///---// */
+/* //---///--- Media Query Navigation ---///---// */
+/* //---///------------------------------///---// */
+
+@media (min-width: 590px) {
+    .header-nav {
+        display: block;
+    }
+
+    i.fa-ellipsis-v, .menu-text {
+        display: none;
+    }
+
+    .header-nav {
+        display: block;
+        flex: 1;
+    }
+
+    .nav-logo-figure {
+        flex: 2;
+    }
+
+    .nav-logo {
+        width: 187.91px;
+        height: 48px;
+    }
+
+    .nav-ul {
+        display: flex;
+        justify-content: space-around;
+    }
+}

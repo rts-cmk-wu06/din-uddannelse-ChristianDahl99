@@ -1,0 +1,31 @@
+.search-bar-form {
+    position: relative;
+}
+
+.search-bar {
+    display: flex;
+    width: 70%;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #c40000;
+    padding-left: 40px;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 20px;
+    outline: none;
+}
+i.fa-search {
+    position: absolute;
+    top: 85%;
+    left: 15%;
+    transform: translate(100%, -70%);
+    color: #c40000;
+}
+
+@media (min-width: 590px) {
+    .search-bar-form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 13%;
+    }
+}

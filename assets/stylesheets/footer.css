@@ -1,0 +1,69 @@
+
+body {
+    margin: 0;
+}
+
+/* //---///--------------------------------///---// */
+/* //---///--- Flexbox Footer Container ---///---// */
+/* //---///--------------------------------///---// */
+
+.footer-flexbox-container {
+    display: flex;
+    height: 175px;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #5d4646;
+}
+
+.footer-flexbox-item {
+    width: 100px;
+    margin: 5px;
+}
+
+/* //---///-------------------///---// */
+/* //---///--- Contact Box ---///---// */
+/* //---///-------------------///---// */
+
+.footer-flexbox-contact {
+    flex: 8;
+    min-width: 150px;
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+/* //---///------------------///---// */
+/* //---///--- Social Box ---///---// */
+/* //---///------------------///---// */
+
+.footer-flexbox-socials {
+    min-height: 100px;
+    flex-grow: 1;
+    margin-top: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.socials-flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.social-icon-item {
+    margin: 13px 0px 0px 0px;
+}
+
+/* //---///---------------------///---// */
+/* //---///--- Copyright Box ---///---// */
+/* //---///---------------------///---// */
+
+.footer-flexbox-copyright {
+    margin-bottom: 7px;
+    min-height: 10px;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+

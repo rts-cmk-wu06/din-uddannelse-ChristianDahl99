@@ -1,0 +1,29 @@
+.knap-box {
+    display: flex;
+    justify-content: flex-end;
+    flex-basis: 100%;
+}
+
+.knap-style {
+    width: 157px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #c40000;
+    color: white;
+    outline: none;
+    border: solid 0px;
+    text-decoration: none;
+}
+
+
+.knap-style:hover {
+    background-color: rgb(202, 58, 58);
+}
+
+.knap-position-1 {
+    margin: 0px 14px 17px 0px;
+}
+
+.knap-position-2 {
+    margin: 0px 24px 17px 0px;
+}

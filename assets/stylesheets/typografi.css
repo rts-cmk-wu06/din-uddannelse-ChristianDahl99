@@ -1,0 +1,81 @@
+/* //---///----------------------///---// */
+/* //---///--- Main Typografi ---///---// */
+/* //---///----------------------///---// */
+
+html {
+    font-size: 16px;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+/* //---///--------------///---// */
+/* //---///--- Footer ---///---// */
+/* //---///--------------///---// */
+
+.footer-contact-bold {
+    font-weight: bold;
+    line-height: 40px;
+}
+
+.footer-contact-line-height {
+    line-height: 25px;
+}
+
+.p-white {
+    color: white;
+}
+
+.p-copyright {
+    font-size: 12px;
+    margin: 0;
+}
+
+/* //---///------------///---// */
+/* //---///--- Knap ---///---// */
+/* //---///------------///---// */
+
+.knap-style {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-knap {
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+
+
+/* //---///--------------------///---// */
+/* //---///--- Kort Article ---///---// */
+/* //---///--------------------///---// */
+
+.kort-h2 {
+    font-weight: normal;
+}

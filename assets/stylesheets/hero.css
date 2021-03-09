@@ -1,0 +1,29 @@
+/* //---///------------///---// */
+/* //---///--- Hero ---///---// */
+/* //---///------------///---// */
+
+.hero-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 210px;
+    background-image: url('../img/webudvikler-hero1.jpg');
+    background-size: cover;
+}
+
+.hero-h2 {
+    text-align: center;
+    margin: 0px 40px 0px 40px;
+}
+
+@media (min-width: 590px) {
+    .hero-box {
+        height: 520px;
+    }
+
+    .hero-h2 {
+        margin: 0px 240px 0px 240px;
+        font-size: 2rem;
+    }
+}

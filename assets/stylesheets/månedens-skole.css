@@ -1,0 +1,108 @@
+/* //---///---------------///---// */
+/* //---///--- Wrapper ---///---// */
+/* //---///---------------///---// */
+
+.månedens-skole-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* //---///----------------///---// */
+/* //---///--- Main Box ---///---// */
+/* //---///----------------///---// */
+
+.månedens-skole-box {
+    flex-basis: 100%;
+    height: 100%;
+    background-color: #f1ebeb;
+    margin: 24px;
+}
+
+/* //---///--------------///---// */
+/* //---///--- Header ---///---// */
+/* //---///--------------///---// */
+
+.månedens-skole-flexbox-header {
+    flex-basis: 100%;
+    background-color: #c40000;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+
+/* //---///------------///---// */
+/* //---///--- Hero ---///---// */
+/* //---///------------///---// */
+
+.månedens-skole-hero {
+    margin: 0;
+    flex-basis: 100%;
+    height: 336px;
+    background-image: url('../img/webudvikler-henrik-hero.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+/* //---///---------------------------------///---// */
+/* //---///--- Article Flexbox Container ---///---// */
+/* //---///---------------------------------///---// */
+
+.månedens-skole-article {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* //---///----------------------///---// */
+/* //---///--- Article h2 & p ---///---// */
+/* //---///----------------------///---// */
+
+.månedens-skole-h2 {
+    flex-basis: 100%;
+    margin: 32px 10px 10px 10px;
+}
+
+.månedens-skole-p {
+    margin: 16px 10px 35px 10px;
+}
+
+@media (min-width: 590px) {
+
+    .månedens-skole-main-box {
+        display: flex;
+        flex-flow: column wrap;
+        height: 380px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .månedens-skole-hero {
+        height: 380px;
+        margin: 0;
+    }
+
+    .månedens-skole-article {
+        width: 50%;
+        margin: 0;
+    }
+
+    .månedens-skole-h2 {
+        flex-basis: 100%;
+        margin: 32px 0px 10px 10px;
+    }
+    
+    .månedens-skole-p {
+        margin: 16px 0px 35px 10px;
+        width: 100%;
+    }
+
+    .knap-box {
+        flex: 1;
+        height: 10%;
+    }
+
+    figure {
+        display: flex;
+        margin: 0;
+    }
+}
